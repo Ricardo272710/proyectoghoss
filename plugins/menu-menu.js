@@ -104,7 +104,6 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃💫➺ _${usedPrefix}cuentasbot_
 ┃💫➺ _${usedPrefix}gruposbot_
 ┃💫➺ _${usedPrefix}estado_
-┃💫➺ _${usedPrefix}infobot_
 ┃💫➺ _${usedPrefix}comprarbot_
 ┃💫➺ _${usedPrefix}comprarbot1_
 ┃💫➺ _${usedPrefix}creador_
@@ -135,7 +134,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃💻➺ _${usedPrefix}Vs20_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━〔 SPAM Y EDITS 〕⬣*
+*╭━〔 TREND TIK TOK 〕⬣*
 ┃🐉➺ _${usedPrefix}Trendtiktok_
 *╰━━━━━━━━━━━━⬣*
 
