@@ -13,7 +13,8 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["51926933818", '𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉', true]]
+["51926933818", '𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉', true], //𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉
+["573244614654"]]
 
 global.mods = []
 global.prems = []
@@ -37,7 +38,7 @@ global.confirmCode = "" // No tocar esto : Do not touch this line
 // English 👉 en
 global.lenguajeGB = es
 global.mid = enDefault
-global.version_language = '1.0'
+global.version_language = '1.0 (MID-GB)'
 
 // [ES] > Si "default_language" esta vacío, su idioma predeterminado será Español o se usará el idioma que cada usuario haya seleccionado al momento de registrarse. 
 // [EN] > If "default_language" is empty, your default language will be Spanish or the language that each user has selected at the time of registration will be used.
@@ -102,7 +103,8 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["51926933818", '𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉', 1]]
+["51926933818", '𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉', 1], 
+["573244614654", '𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -117,8 +119,8 @@ global.author = "𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉"
 // [ES] > CUENTAS E INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
 // [EN] > ACCOUNTS AND BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
-global.vs = "1.0"
-global.vsJB = "2"
+global.vs = "1.7.0"
+global.vsJB = "2.5 (Beta)"
 global.gt = "𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉"
 
 global.yt = "https://www.instagram.com/cristhofer_yallico"
@@ -133,7 +135,7 @@ global.asistencia = 'https://chat.whatsapp.com/LHo0RmYd3pxAQzp24NYcTV' //Contact
 
 global.nna = 'https://chat.whatsapp.com/LHo0RmYd3pxAQzp24NYcTV' // CANAL UPDATE
 global.nn2 = 'https://www.instagram.com/cristhofer_yallico' // CANAL GataBot
-global.nna2 = 'https://www.instagram.com/cristhofer_yallico' /|Help
+global.nna2 = 'https://www.instagram.com/cristhofer_yallico' // Help
 global.nn = 'https://www.instagram.com/cristhofer_yallico' // Grupo 1
 global.nnn = 'https://www.instagram.com/cristhofer_yallico' // Grupo 2
 global.nnnt = 'https://www.instagram.com/cristhofer_yallico' // Grupo 3
@@ -146,34 +148,35 @@ global.nnnttt4 = 'https://www.instagram.com/cristhofer_yallico' // Grupo 9 COL
 global.nnnttt5 = 'https://www.instagram.com/cristhofer_yallico' // A.T.M.M
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.rg = ''
+global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
 global.resultado = rg
 
-global.ag = ''
+global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 | 𝙒𝘼𝙍𝙉𝙄𝙉𝙂* ⊱⚠️⊱╮\n\n'
 global.advertencia = ag
 
-global.iig = ''
+global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉 | 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉* ⊱⊱╮\n\n'
 global.informacion = iig
 
-global.fg = ''
+global.fg = '╰⊱❌⊱ *𝙁𝘼𝙇𝙇𝙊́ | 𝙀𝙍𝙍𝙊𝙍* ⊱❌⊱╮\n\n'
+global.fallo = fg
 
-global.mg = ''
+global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇 | 𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮\n\n'
 global.mal = mg
-..
-global.eeg = '')
+
+global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏* ⊱📩⊱╮\n\n'
 global.envio = eeg
 
-global.eg = ''
+global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 global.wm = "𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉"
 global.igfg = "𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉"
-global.wait = "*🐉 _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
-global.waitt = "*🐉 _Cargando | Charging..._ ▬▬▭▭▭*"
-global.waittt = "*🐉 _Cargando | Charging..._ ▬▬▬▬▭▭*"
-global.waitttt = "*🐉 _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
-global.nomorown = "51926933818"
+global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
+global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
+global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
+global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
+global.nomorown = "51902360712"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
