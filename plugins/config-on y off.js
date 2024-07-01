@@ -296,8 +296,8 @@ break
     
 case 'restrict': case 'restringir':
 isAll = true
-if (!isOwner) {
-global.dfail('owner', m, conn)
+if (!isAdmin) {
+global.dfail('admin', m, conn)
 throw false
 }
 bot.restrict = isEnable
