@@ -112,9 +112,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉"
-global.author = "𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉"
-
+global.packname = `╭ 𝘿𝙧𝙖𝙜𝙤𝙣 𝘽𝙤𝙩 🐉\n┃\n┃ » WhatsApp :\n┃ +51 926 933 818 \n┃\n┃ » Fb :\n┃ @Yallico J-j \n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @cristhofer_yallico\n╰━━━━━━━━•` //"𝘿𝙧𝙖𝙜𝙤𝙣 𝘽𝙤𝙩 🐉"
+global.author = ` ╭ 𝘿𝙧𝙖𝙜𝙤𝙣 𝘽𝙤𝙩 🐉✓\n ┃\n ┃ » WhatsApp :\n ┃ +51 926 933 818 \n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Comprar\n ┃ » Yape :\n ┃ +51 991 619 710 \n ╰━━━━━━━━•` //"𝘿𝙧𝙖𝙜𝙤𝙣 𝘽𝙤𝙩 🐉"
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > CUENTAS E INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
