@@ -3,7 +3,7 @@ let handler = async (m, {conn, command}) => {
     await conn.sendFile( 
      m.chat, 
      url, 
-     "gimage.jpg", 
+     "gimage.jpge", 
      ` 
  *Purgatorio*`.trim(), m)
 };
