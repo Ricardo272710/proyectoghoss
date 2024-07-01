@@ -13,7 +13,7 @@ handler.command = /^(Purgatorio)$/i;
 export default handler;
 
 global.Purgatorio = [
-  "https://qu.ax/JrOF.jpg`",
+  "https://telegra.ph/file/09edd89c06631a6671658.jpg`",
 ];
 
 handler.limit = 1;
