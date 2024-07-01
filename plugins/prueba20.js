@@ -1,20 +1,19 @@
-import fs from 'fs'
-import yaoiImages from 'module-gatadios'
+let handler = async (m, {conn, command}) => {
+  let url = Purgatorio[Math.floor(Math.random() * Purgatorio.length)];
+    await conn.sendFile( 
+     m.chat, 
+     url, 
+     "gimage.jpg", 
+     ` 
+ *Purgatorio*`.trim(), m)
+};
+handler.help = ["Purgatorio"];
+handler.tags = ["internet"];
+handler.command = /^(Purgatorio)$/i;
+export default handler;
 
-let handler = async (m, { conn }) => {
-const resultJson = yaoiImages.getRandomImage()
+global.Purgatorio = [
+  "https://qu.ax/JrOF.jpg`",
+];
 
-let txt
-txt = `
-Nombre: ${resultJson.name}
-
-Autor: ${resultJson.author}
-
-Descripción: ${resultJson.description}`
-  
-conn.sendMessage(m.chat, {image: {url: resultJson.link}, caption: txt.trim()}, {quoted: m})
-  
-}
-
-handler.command = /^(prueba36)$/i
-export default handler
+handler.limit = 1;
