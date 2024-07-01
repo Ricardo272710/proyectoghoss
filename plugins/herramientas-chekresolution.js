@@ -18,10 +18,9 @@ let source = await jimp.read(await link)
 let height = await source.getHeight()
 let width = await source.getWidth()
 
-m.reply(`_*RESOLUTION :*_ ${width} x ${height}
-> Ancho : ${width}
-> Altura : ${height}
-> Link: ${link}`)
+m.reply(`Ancho : ${width}
+Altura : ${height}
+Link: ${link}`)
 }
 handler.help = ['cekresolution <reply | caption>', 'cekreso <reply | caption>']
 handler.tags = ['tool']
