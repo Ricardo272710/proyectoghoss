@@ -1,11 +1,26 @@
-const handler = async (m, {conn}) => {
-  const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
-  await conn.sendFile(m.chat, global.API('https://some-random-api.com', '/canvas/gay', {
-    avatar: await conn.profilePictureUrl(who, 'image').catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
-  }), 'error.png', '*Ella Es Mi Novia Es Bonita Vrd?🥺🫶🏼 @${who.replace(/@.+/, ' La Mejor Del Mundo 🥺🫶🏼*', m);
-  
-};
-handler.help = ['minovia'];
-handler.tags = ['maker'];
-handler.command = /^(minovia)$/i;
-export default handler;
+let handler = async (m, { conn, text, usedPrefix }) => {
+
+  if (!text) return conn.reply(m.chat, 'Etiqueta a tu nv xd', m)
+
+  let pp = './src/avatar_contact.png'
+  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  try {
+    pp = await conn.getProfilePicture(who)
+  } catch (e) {
+
+  } finally {
+    let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_contact.png')
+    let username = conn.getName(who)
+    let str = Ella Es Mi Novia Es Bonita Vrd?🥺🫶🏼 @${who.replace(/@.+/, ' La Mejor Del Mundo 🥺🫶🏼')}
+    let mentionedJid = [who]
+
+    conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})
+  }
+}
+handler.help = ['getpp @user']
+handler.tags = ['group']
+handler.command = /^minovia$/i
+
+handler.group = true
+
+export default handler
