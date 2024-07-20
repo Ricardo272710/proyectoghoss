@@ -23,7 +23,7 @@ const handler = async (m, { conn, command, args, text, usedPrefix }) => {
     additionalText = 'vídeo';
   }
 
-  const texto1 = `> *Yallico X Bruno Sobrino*\n\n> *🇦🇱 Título:* ${yt_play[0].title}\n> *🇦🇱 Autor:* ${yt_play[0].author.name}\n> *🇦🇱 Enlace:* ${yt_play[0].url}\n> *🇦🇱 Canal:* ${yt_play[0].author.url}\n\n> *En Un Momento El Audio Será Enviado , Disculpa Soy Un Poco Lento*\n\n> *Te Invito A Mi Grupo De WhatsApp:* ${nna}`.trim();
+  const texto1 = `> *BOMBOM BOT*\n\n> *🇦🇱 Título:* ${yt_play[0].title}\n> *🇦🇱 Autor:* ${yt_play[0].author.name}\n> *🇦🇱 Enlace:* ${yt_play[0].url}\n> *🇦🇱 Canal:* ${yt_play[0].author.url}\n\n> *En Un Momento El Audio Será Enviado , Disculpa Soy Un Poco Lento*\n\n> *Te Invito A Mi Grupo De WhatsApp:* ${nna}`.trim();
 
   conn.sendMessage(m.chat, { image: { url: yt_play[0].thumbnail }, caption: texto1 }, { quoted: m });
 
