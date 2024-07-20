@@ -103,8 +103,8 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["593979133620", '𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 🐉', 1], 
-["50764206082", '𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 🐉', 1]]
+["593979133620", '𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 ', 1], 
+["50764206082", '𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 ', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -112,15 +112,15 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `╭ 𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 🐉\n┃\n┃ » WhatsApp :\n┃ +51 926 933 818 \n┃\n┃ » Fb :\n┃ @Yallico J-j \n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @cristhofer_yallico\n╰━━━━━━━━•` //"𝘿𝙧𝙖𝙜𝙤𝙣 𝘽𝙤𝙩 🐉"
-global.author = ` ╭ 𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 🐉✓\n ┃\n ┃ » WhatsApp :\n ┃ +51 926 933 818 \n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Comprar\n ┃ » Yape :\n ┃ +51 991 619 710 \n ╰━━━━━━━━•` //"𝘿𝙧𝙖𝙜𝙤𝙣 𝘽𝙤𝙩 🐉"
+global.packname = "𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏"
+global.author = "𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 "
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > CUENTAS E INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
 // [EN] > ACCOUNTS AND BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 🐉"
+global.gt = "𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 "
 
 global.yt = "https://www.instagram.com/proyecto_r.a_"
 global.yt2 = "https://www.instagram.com/proyecto_r.a_"
@@ -169,8 +169,8 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 🐉"
-global.igfg = "𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 🐉"
+global.wm = "𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 "
+global.igfg = "𝘽𝙊𝙈𝘽𝙊𝙉 𝘽𝙊𝙏 "
 global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
