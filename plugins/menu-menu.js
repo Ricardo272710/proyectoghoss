@@ -88,8 +88,6 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 ╭━〔 BOMBON BOT 〕━⬣
 ┃ACTIVO: 03.06.2024
-┃   DUEÑA:
-┃+52 56 4811 8032
 ╰━━━━━━━━━━━⬣
 ╭━〔COMANDOS〕━⬣
 ┃.menu | .comandos
@@ -128,7 +126,6 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 ╭━〔 SPAM Y EDITS 〕⬣
 ┃👤➺ .SpamComu
-┃👤➺ .igbombon
 ╰━━━━━━━━━━━⬣
 
 ╭━ MULTI JUEGOS ━⬣
