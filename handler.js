@@ -1403,7 +1403,7 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, '𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉 ' + gt + '', 'https://chat.whatsapp.com/LHo0RmYd3pxAQzp24NYcTV'].getRandom(),
+"title": [wm, 'BOMBON BOT ' + gt + '', '😍BIENVENIDO'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: [md, nna, nn2, yt, ig, paypal, fb].getRandom()}}}, { quoted: fkontak2 })
