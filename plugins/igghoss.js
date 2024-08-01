@@ -8,5 +8,6 @@ handler.group = true
 handler.botAdmin = true
 
 global.igbombon = ` 
-https://www.instagram.com/y.u.l.i.4?igsh=MWRhN2s1dXY3eXV6aA==
+AQUI ESTA EL IG DE MI DUEÑA
+https://www.instagram.com/editor_ghoss
 `;
