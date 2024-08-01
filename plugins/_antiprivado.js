@@ -10,11 +10,9 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   if (bot.antiPrivate && !isOwner && !isROwner) {
     await m.reply(` @${m.sender.split`@`[0]}, 𝘼𝙡 𝙌𝙪𝙚𝙧𝙚𝙧 𝙃𝙖𝙗𝙡𝙖𝙧 𝘼𝙡 𝙋𝙧𝙞𝙫𝙖𝙙𝙤 seras \n\n𝘽𝙡𝙤𝙦𝙪𝙚𝙖𝙙𝙤
    Hola🪄
-Hablas con Bombón Bot💗
+Hablas con GHOSS BOT💗💗
 Si quieres adquirir el bot puedes escribirle a mi dueña
-🧚🏻‍♀+525648118032 🧚🏻‍♀️
-O entra al grupo de pruebas del bot🫶🏻
-https://chat.whatsapp.com/Jf0Y0pZYWasI3bCTaoJyIa`, false, {mentions: [m.sender]});
+`, false, {mentions: [m.sender]});
     await this.updateBlockStatus(m.chat, 'block');
   }
   return !1;
