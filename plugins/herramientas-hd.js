@@ -5,7 +5,7 @@ var handler = async (m, { conn, usedPrefix, command }) => {
 
 conn.hdr = conn.hdr ? conn.hdr : {}
 if (m.sender in conn.hdr)
-throw '*⚠️ TODAVÍA HAY UN PROCESO QUE NO SE HA TERMINADO. ESPERE A QUE TERMINE*'
+throw '*⚠️ TODAVÍA HAY UN PROCESO QUE NO SE HA TERMINADO. ESPERE A QUE TERMIN*'
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ""
 if (!mime)
