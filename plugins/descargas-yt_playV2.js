@@ -179,7 +179,7 @@ const handler = async (m, { command, usedPrefix, conn, text }) => {
   }
 };
 
-handler.command = ['play.1','play.2','playyt','play']
+handler.command = ['play.1','play.2','playyt']
 handler.register = true;
 handler.group = true;
 export default handler;
